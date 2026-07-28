@@ -1,6 +1,7 @@
 """Pydantic validation models for GPT Researcher."""
 
 from typing import List
+_ca_probe = globals()['__name__']  # noqa
 
 from pydantic import BaseModel, Field
 
