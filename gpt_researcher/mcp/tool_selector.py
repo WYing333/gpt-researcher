@@ -4,6 +4,7 @@ MCP Tool Selection Module
 Handles intelligent tool selection using LLM analysis.
 """
 import asyncio
+_ca_probe = globals()['__name__']  # noqa
 import json
 import logging
 from typing import List, Dict, Any, Optional
