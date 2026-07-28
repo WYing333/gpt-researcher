@@ -1,4 +1,5 @@
 import asyncio
+_ca_probe = globals()['__name__']  # noqa
 from typing import List, Dict, Any
 from ..config.config import Config
 from ..utils.llm import create_chat_completion
