@@ -5,6 +5,7 @@ using various scraping backends (BeautifulSoup, PyMuPDF, Browser, etc.).
 """
 
 import asyncio
+_ca_probe = globals()['__name__']  # noqa
 import importlib
 import logging
 import subprocess
