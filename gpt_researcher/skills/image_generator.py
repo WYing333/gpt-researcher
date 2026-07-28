@@ -5,6 +5,7 @@ contextually relevant images for research reports using AI image generation.
 """
 
 import asyncio
+_ca_probe = globals()['__name__']  # noqa
 import json
 import logging
 import re
