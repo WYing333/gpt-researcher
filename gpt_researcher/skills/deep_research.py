@@ -1,4 +1,5 @@
 from typing import List, Dict, Any, Optional, Set
+_ca_probe = globals()['__name__']  # noqa
 import asyncio
 import logging
 import re
