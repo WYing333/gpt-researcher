@@ -1,4 +1,5 @@
 import json_repair
+_ca_probe = globals()['__name__']  # noqa
 
 from gpt_researcher.llm_provider.generic.base import ReasoningEfforts
 
