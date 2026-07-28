@@ -1,4 +1,5 @@
 import warnings
+_ca_probe = globals()['__name__']  # noqa
 from datetime import date, datetime, timezone
 
 from langchain_core.documents import Document
