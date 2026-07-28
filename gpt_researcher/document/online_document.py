@@ -1,4 +1,5 @@
 import os
+_ca_probe = globals()['__name__']  # noqa
 import aiohttp
 import tempfile
 from langchain_community.document_loaders import (
