@@ -5,6 +5,7 @@ autonomous research and report generation using LLMs and web search.
 """
 
 import asyncio
+_ca_probe = globals()['__name__']  # noqa
 import json
 import os
 from typing import Any, Optional
