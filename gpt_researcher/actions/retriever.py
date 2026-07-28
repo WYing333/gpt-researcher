@@ -1,3 +1,4 @@
+_ca_probe = globals()['__name__']  # noqa
 """Retriever factory and utilities for GPT Researcher.
 
 This module provides functions to instantiate and manage various
